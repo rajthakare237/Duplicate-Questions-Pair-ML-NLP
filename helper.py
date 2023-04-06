@@ -5,8 +5,9 @@ from fuzzywuzzy import fuzz
 import pickle
 import numpy as np
 import nltk
-nltk.download('stopwords')
 from nltk.corpus import stopwords
+
+nltk.download('stopwords')
 
 cv = pickle.load(open('cv.pkl','rb'))
 
